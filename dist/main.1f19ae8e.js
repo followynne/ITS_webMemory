@@ -17783,9 +17783,19 @@ var _jquery = _interopRequireDefault(require("jquery"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _jquery.default)(document).ready(function () {
-  console.log("yo");
-});
+(0, _jquery.default)(document).ready(function () {});
+/* creare funz per creare il div con il punteggio e il record inserito
+let punteggio = () => {
+
+    //let pointsStart = `<div class="col d-flex justify-content-end>
+                            Punteggio:` +  + `
+
+                         </div>`
+    
+
+};*/
+// creare funzione in cui, partendo da 1000, restituisco il punteggio e lo aggiorno in rif alle show
+// localStorage el per il record
 },{"bootstrap/dist/css/bootstrap.min.css":"node_modules/bootstrap/dist/css/bootstrap.min.css","bootstrap/dist/js/bootstrap.bundle":"node_modules/bootstrap/dist/js/bootstrap.bundle.js","jquery":"node_modules/jquery/dist/jquery.js"}],"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -17814,7 +17824,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56620" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61114" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
