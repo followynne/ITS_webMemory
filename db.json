@@ -1,0 +1,14 @@
+{
+    "cardsSchema":
+        {
+        "columns":"6",
+        "rows": "3"
+        },
+    "cardSeeds":[
+        {
+            "yes":"one"
+
+        }
+    ]
+
+}

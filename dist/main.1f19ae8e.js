@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/bootstrap/dist/css/bootstrap.min.css":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/bootstrap/dist/css/bootstrap.min.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
+},{"_css_loader":"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -10767,7 +10767,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );
 
-},{"process":"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/node_modules/process/browser.js"}],"node_modules/bootstrap/dist/js/bootstrap.bundle.js":[function(require,module,exports) {
+},{"process":"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js"}],"node_modules/bootstrap/dist/js/bootstrap.bundle.js":[function(require,module,exports) {
 var define;
 var global = arguments[3];
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function (obj) { return typeof obj; }; } else { _typeof = function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -17783,7 +17783,22 @@ var _jquery = _interopRequireDefault(require("jquery"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _jquery.default)(document).ready(function () {});
+var addCards = function addCards() {};
+
+(0, _jquery.default)(document).ready(function () {
+  fetch("http://localhost:3000/cardsSchema").then(function (result) {
+    return result.json();
+  }).then(function (data) {
+    for (var j = 0; j <= data.rows; j++) {
+      for (var i = 0; i <= data.columns; i++) {
+        var cardLayout = "<div class=\"col col-lg-1 col-md-4 col-sm-6\">\n                              <div class=\"d-flex card justify-content-center align-items-center\">\n                                 Re di Spade</div>\n                                 </div>";
+        (0, _jquery.default)('.addEl').append(cardLayout);
+      }
+    }
+
+    ;
+  });
+});
 /* creare funz per creare il div con il punteggio e il record inserito
 let punteggio = () => {
 
@@ -17796,7 +17811,7 @@ let punteggio = () => {
 };*/
 // creare funzione in cui, partendo da 1000, restituisco il punteggio e lo aggiorno in rif alle show
 // localStorage el per il record
-},{"bootstrap/dist/css/bootstrap.min.css":"node_modules/bootstrap/dist/css/bootstrap.min.css","bootstrap/dist/js/bootstrap.bundle":"node_modules/bootstrap/dist/js/bootstrap.bundle.js","jquery":"node_modules/jquery/dist/jquery.js"}],"../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"bootstrap/dist/css/bootstrap.min.css":"node_modules/bootstrap/dist/css/bootstrap.min.css","bootstrap/dist/js/bootstrap.bundle":"node_modules/bootstrap/dist/js/bootstrap.bundle.js","jquery":"node_modules/jquery/dist/jquery.js"}],"../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -17824,7 +17839,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61114" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64199" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -17999,5 +18014,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../Program Files/nodejs/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","main.js"], null)
+},{}]},{},["../../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","main.js"], null)
 //# sourceMappingURL=/main.1f19ae8e.js.map

@@ -2,9 +2,24 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import $ from 'jquery'
 
+const addCards = () => {
+   
+}
 
 $(document).ready(() => {
 
+   fetch("http://localhost:3000/cardsSchema").then((result) => result.json())
+   .then((data) => {
+      for (let j = 0; j<=data.rows; j++){
+         for (let i = 0; i<=data.columns; i++){
+            const cardLayout = `<div class="col col-lg-1 col-md-4 col-sm-6">
+                              <div class="d-flex card justify-content-center align-items-center">
+                                 Re di Spade</div>
+                                 </div>`;
+            $('.addEl').append(cardLayout);
+         }
+      };
+   })
 
     
 })
