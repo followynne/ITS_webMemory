@@ -1,6 +1,29 @@
-.card {
-    width: 200px;
-    height: 250px;
+.row{
+    border: 1px solid black;
 }
+
+.colImg{
+    width: 100px;
+    height: 150px;
+    position: relative;
+}
+
+.noClick{
+    pointer-events: none;
+}
+
+.front, .back {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card {
+    border:1px solid green;
+}
+
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
