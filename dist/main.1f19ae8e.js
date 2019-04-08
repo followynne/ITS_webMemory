@@ -17778,30 +17778,30 @@ module.exports = "/10C.4b37e32e.jpg";
 module.exports = "/10D.a5e9783e.jpg";
 },{}],"img/10H.jpg":[function(require,module,exports) {
 module.exports = "/10H.efe9d89c.jpg";
-},{}],"img/10S.jpg":[function(require,module,exports) {
-module.exports = "/10S.46084741.jpg";
 },{}],"img/2C.jpg":[function(require,module,exports) {
 module.exports = "/2C.2e58e41e.jpg";
+},{}],"img/10S.jpg":[function(require,module,exports) {
+module.exports = "/10S.46084741.jpg";
 },{}],"img/2D.jpg":[function(require,module,exports) {
 module.exports = "/2D.db5bcda0.jpg";
 },{}],"img/2H.jpg":[function(require,module,exports) {
 module.exports = "/2H.00737334.jpg";
 },{}],"img/2S.jpg":[function(require,module,exports) {
 module.exports = "/2S.33660c8e.jpg";
-},{}],"img/3D.jpg":[function(require,module,exports) {
-module.exports = "/3D.5cd146f8.jpg";
 },{}],"img/3C.jpg":[function(require,module,exports) {
 module.exports = "/3C.9552a4ab.jpg";
+},{}],"img/3D.jpg":[function(require,module,exports) {
+module.exports = "/3D.5cd146f8.jpg";
 },{}],"img/3H.jpg":[function(require,module,exports) {
 module.exports = "/3H.659f281a.jpg";
 },{}],"img/3S.jpg":[function(require,module,exports) {
 module.exports = "/3S.ca16c452.jpg";
 },{}],"img/4C.jpg":[function(require,module,exports) {
 module.exports = "/4C.ba99531d.jpg";
-},{}],"img/4H.jpg":[function(require,module,exports) {
-module.exports = "/4H.5aafdc4a.jpg";
 },{}],"img/4D.jpg":[function(require,module,exports) {
 module.exports = "/4D.31cebc90.jpg";
+},{}],"img/4H.jpg":[function(require,module,exports) {
+module.exports = "/4H.5aafdc4a.jpg";
 },{}],"img/4S.jpg":[function(require,module,exports) {
 module.exports = "/4S.7cb67ec0.jpg";
 },{}],"img/5C.jpg":[function(require,module,exports) {
@@ -17856,20 +17856,20 @@ module.exports = "/AH.d23c3de4.jpg";
 module.exports = "/AS.10beb484.jpg";
 },{}],"img/back_cards-07.jpg":[function(require,module,exports) {
 module.exports = "/back_cards-07.eb798639.jpg";
-},{}],"img/Gray_back.jpg":[function(require,module,exports) {
-module.exports = "/Gray_back.48c8e151.jpg";
 },{}],"img/blue_back.jpg":[function(require,module,exports) {
 module.exports = "/blue_back.4aad8aaf.jpg";
-},{}],"img/honor_clubs.jpg":[function(require,module,exports) {
-module.exports = "/honor_clubs.97eb118d.jpg";
+},{}],"img/Gray_back.jpg":[function(require,module,exports) {
+module.exports = "/Gray_back.48c8e151.jpg";
 },{}],"img/Green_back.jpg":[function(require,module,exports) {
 module.exports = "/Green_back.bfc70bf8.jpg";
+},{}],"img/honor_clubs.jpg":[function(require,module,exports) {
+module.exports = "/honor_clubs.97eb118d.jpg";
 },{}],"img/honor_diamond.jpg":[function(require,module,exports) {
 module.exports = "/honor_diamond.16ee03d8.jpg";
-},{}],"img/honor_spade.jpg":[function(require,module,exports) {
-module.exports = "/honor_spade.72a90cea.jpg";
 },{}],"img/honor_heart-14.jpg":[function(require,module,exports) {
 module.exports = "/honor_heart-14.d63899d8.jpg";
+},{}],"img/honor_spade.jpg":[function(require,module,exports) {
+module.exports = "/honor_spade.72a90cea.jpg";
 },{}],"img/JC.jpg":[function(require,module,exports) {
 module.exports = "/JC.b22bbfa0.jpg";
 },{}],"img/JD.jpg":[function(require,module,exports) {
@@ -17886,8 +17886,6 @@ module.exports = "/KD.49662264.jpg";
 module.exports = "/KH.7c407483.jpg";
 },{}],"img/KS.jpg":[function(require,module,exports) {
 module.exports = "/KS.23c8f14c.jpg";
-},{}],"img/purple_back.jpg":[function(require,module,exports) {
-module.exports = "/purple_back.2bd28a4e.jpg";
 },{}],"img/QC.jpg":[function(require,module,exports) {
 module.exports = "/QC.b4aa71b5.jpg";
 },{}],"img/QD.jpg":[function(require,module,exports) {
@@ -17900,23 +17898,25 @@ module.exports = "/QS.8bc64543.jpg";
 module.exports = "/Red_back.0f2af71a.jpg";
 },{}],"img/Yellow_back.jpg":[function(require,module,exports) {
 module.exports = "/Yellow_back.c3629947.jpg";
+},{}],"img/purple_back.jpg":[function(require,module,exports) {
+module.exports = "/purple_back.2bd28a4e.jpg";
 },{}],"img/*.jpg":[function(require,module,exports) {
 module.exports = {
   "10C": require("./10C.jpg"),
   "10D": require("./10D.jpg"),
   "10H": require("./10H.jpg"),
-  "10S": require("./10S.jpg"),
   "2C": require("./2C.jpg"),
+  "10S": require("./10S.jpg"),
   "2D": require("./2D.jpg"),
   "2H": require("./2H.jpg"),
   "2S": require("./2S.jpg"),
-  "3D": require("./3D.jpg"),
   "3C": require("./3C.jpg"),
+  "3D": require("./3D.jpg"),
   "3H": require("./3H.jpg"),
   "3S": require("./3S.jpg"),
   "4C": require("./4C.jpg"),
-  "4H": require("./4H.jpg"),
   "4D": require("./4D.jpg"),
+  "4H": require("./4H.jpg"),
   "4S": require("./4S.jpg"),
   "5C": require("./5C.jpg"),
   "5D": require("./5D.jpg"),
@@ -17944,13 +17944,13 @@ module.exports = {
   "AH": require("./AH.jpg"),
   "AS": require("./AS.jpg"),
   "back_cards-07": require("./back_cards-07.jpg"),
-  "Gray_back": require("./Gray_back.jpg"),
   "blue_back": require("./blue_back.jpg"),
-  "honor_clubs": require("./honor_clubs.jpg"),
+  "Gray_back": require("./Gray_back.jpg"),
   "Green_back": require("./Green_back.jpg"),
+  "honor_clubs": require("./honor_clubs.jpg"),
   "honor_diamond": require("./honor_diamond.jpg"),
-  "honor_spade": require("./honor_spade.jpg"),
   "honor_heart-14": require("./honor_heart-14.jpg"),
+  "honor_spade": require("./honor_spade.jpg"),
   "JC": require("./JC.jpg"),
   "JD": require("./JD.jpg"),
   "JH": require("./JH.jpg"),
@@ -17959,15 +17959,15 @@ module.exports = {
   "KD": require("./KD.jpg"),
   "KH": require("./KH.jpg"),
   "KS": require("./KS.jpg"),
-  "purple_back": require("./purple_back.jpg"),
   "QC": require("./QC.jpg"),
   "QD": require("./QD.jpg"),
   "QH": require("./QH.jpg"),
   "QS": require("./QS.jpg"),
   "Red_back": require("./Red_back.jpg"),
-  "Yellow_back": require("./Yellow_back.jpg")
+  "Yellow_back": require("./Yellow_back.jpg"),
+  "purple_back": require("./purple_back.jpg")
 };
-},{"./10C.jpg":"img/10C.jpg","./10D.jpg":"img/10D.jpg","./10H.jpg":"img/10H.jpg","./10S.jpg":"img/10S.jpg","./2C.jpg":"img/2C.jpg","./2D.jpg":"img/2D.jpg","./2H.jpg":"img/2H.jpg","./2S.jpg":"img/2S.jpg","./3D.jpg":"img/3D.jpg","./3C.jpg":"img/3C.jpg","./3H.jpg":"img/3H.jpg","./3S.jpg":"img/3S.jpg","./4C.jpg":"img/4C.jpg","./4H.jpg":"img/4H.jpg","./4D.jpg":"img/4D.jpg","./4S.jpg":"img/4S.jpg","./5C.jpg":"img/5C.jpg","./5D.jpg":"img/5D.jpg","./5H.jpg":"img/5H.jpg","./5S.jpg":"img/5S.jpg","./6C.jpg":"img/6C.jpg","./6D.jpg":"img/6D.jpg","./6H.jpg":"img/6H.jpg","./6S.jpg":"img/6S.jpg","./7C.jpg":"img/7C.jpg","./7D.jpg":"img/7D.jpg","./7H.jpg":"img/7H.jpg","./7S.jpg":"img/7S.jpg","./8C.jpg":"img/8C.jpg","./8D.jpg":"img/8D.jpg","./8H.jpg":"img/8H.jpg","./8S.jpg":"img/8S.jpg","./9C.jpg":"img/9C.jpg","./9D.jpg":"img/9D.jpg","./9H.jpg":"img/9H.jpg","./9S.jpg":"img/9S.jpg","./AC.jpg":"img/AC.jpg","./aces.jpg":"img/aces.jpg","./AD.jpg":"img/AD.jpg","./AH.jpg":"img/AH.jpg","./AS.jpg":"img/AS.jpg","./back_cards-07.jpg":"img/back_cards-07.jpg","./Gray_back.jpg":"img/Gray_back.jpg","./blue_back.jpg":"img/blue_back.jpg","./honor_clubs.jpg":"img/honor_clubs.jpg","./Green_back.jpg":"img/Green_back.jpg","./honor_diamond.jpg":"img/honor_diamond.jpg","./honor_spade.jpg":"img/honor_spade.jpg","./honor_heart-14.jpg":"img/honor_heart-14.jpg","./JC.jpg":"img/JC.jpg","./JD.jpg":"img/JD.jpg","./JH.jpg":"img/JH.jpg","./JS.jpg":"img/JS.jpg","./KC.jpg":"img/KC.jpg","./KD.jpg":"img/KD.jpg","./KH.jpg":"img/KH.jpg","./KS.jpg":"img/KS.jpg","./purple_back.jpg":"img/purple_back.jpg","./QC.jpg":"img/QC.jpg","./QD.jpg":"img/QD.jpg","./QH.jpg":"img/QH.jpg","./QS.jpg":"img/QS.jpg","./Red_back.jpg":"img/Red_back.jpg","./Yellow_back.jpg":"img/Yellow_back.jpg"}],"main.js":[function(require,module,exports) {
+},{"./10C.jpg":"img/10C.jpg","./10D.jpg":"img/10D.jpg","./10H.jpg":"img/10H.jpg","./2C.jpg":"img/2C.jpg","./10S.jpg":"img/10S.jpg","./2D.jpg":"img/2D.jpg","./2H.jpg":"img/2H.jpg","./2S.jpg":"img/2S.jpg","./3C.jpg":"img/3C.jpg","./3D.jpg":"img/3D.jpg","./3H.jpg":"img/3H.jpg","./3S.jpg":"img/3S.jpg","./4C.jpg":"img/4C.jpg","./4D.jpg":"img/4D.jpg","./4H.jpg":"img/4H.jpg","./4S.jpg":"img/4S.jpg","./5C.jpg":"img/5C.jpg","./5D.jpg":"img/5D.jpg","./5H.jpg":"img/5H.jpg","./5S.jpg":"img/5S.jpg","./6C.jpg":"img/6C.jpg","./6D.jpg":"img/6D.jpg","./6H.jpg":"img/6H.jpg","./6S.jpg":"img/6S.jpg","./7C.jpg":"img/7C.jpg","./7D.jpg":"img/7D.jpg","./7H.jpg":"img/7H.jpg","./7S.jpg":"img/7S.jpg","./8C.jpg":"img/8C.jpg","./8D.jpg":"img/8D.jpg","./8H.jpg":"img/8H.jpg","./8S.jpg":"img/8S.jpg","./9C.jpg":"img/9C.jpg","./9D.jpg":"img/9D.jpg","./9H.jpg":"img/9H.jpg","./9S.jpg":"img/9S.jpg","./AC.jpg":"img/AC.jpg","./aces.jpg":"img/aces.jpg","./AD.jpg":"img/AD.jpg","./AH.jpg":"img/AH.jpg","./AS.jpg":"img/AS.jpg","./back_cards-07.jpg":"img/back_cards-07.jpg","./blue_back.jpg":"img/blue_back.jpg","./Gray_back.jpg":"img/Gray_back.jpg","./Green_back.jpg":"img/Green_back.jpg","./honor_clubs.jpg":"img/honor_clubs.jpg","./honor_diamond.jpg":"img/honor_diamond.jpg","./honor_heart-14.jpg":"img/honor_heart-14.jpg","./honor_spade.jpg":"img/honor_spade.jpg","./JC.jpg":"img/JC.jpg","./JD.jpg":"img/JD.jpg","./JH.jpg":"img/JH.jpg","./JS.jpg":"img/JS.jpg","./KC.jpg":"img/KC.jpg","./KD.jpg":"img/KD.jpg","./KH.jpg":"img/KH.jpg","./KS.jpg":"img/KS.jpg","./QC.jpg":"img/QC.jpg","./QD.jpg":"img/QD.jpg","./QH.jpg":"img/QH.jpg","./QS.jpg":"img/QS.jpg","./Red_back.jpg":"img/Red_back.jpg","./Yellow_back.jpg":"img/Yellow_back.jpg","./purple_back.jpg":"img/purple_back.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -17985,21 +17985,22 @@ var cardVal, cardVal2, card1, card2, DatiJson, selection;
 var tempArr = [],
     tempArr2 = [],
     randArr = [];
-var cardCount;
+var cardCount,
+    updatingScore = 10;
+sessionStorage.setItem("cardScore", 1000);
 
 var selectRandomCards = function selectRandomCards(par) {
   for (var i = 0; i < par.cardsSchema.columns * par.cardsSchema.rows / 2; i++) {
     tempArr[i] = par.cardS[i].src;
-  }
+  } //console.log(tempArr);
 
-  console.log(tempArr);
-  tempArr2 = tempArr.slice();
-  console.log(tempArr2);
+
+  tempArr2 = tempArr.slice(); //console.log(tempArr2);
+
   randArr = tempArr.concat(tempArr2);
   randArr.sort(function (a, b) {
     return 0.5 - Math.random();
-  });
-  console.log(randArr);
+  }); //console.log(randArr)
 };
 
 var addCards = function addCards(par) {
@@ -18022,9 +18023,6 @@ var showFirstCard = function showFirstCard(x) {
     x.parent().addClass('noClick');
     card1 = x;
     isClicked = true;
-    /*       console.log(cardVal)
-          console.log(isClicked)
-          console.log(card1) */
   }
 };
 
@@ -18034,7 +18032,6 @@ var showSecondCard = function showSecondCard(x) {
     x.closest(".back").fadeOut();
     x.parent().addClass('noClick');
     card2 = x;
-    /*       console.log(cardVal2) */
   }
 };
 
@@ -18046,30 +18043,51 @@ var checkCards = function checkCards() {
     isClicked = false;
     counterCardsRemaining();
   } else {
-    card1.show(1000);
-    card2.show(1000);
+    card1.show(2000);
+    card2.show(2000);
     cardVal = "", cardVal2 = "";
     card1.parent().removeClass('noClick');
     card2.parent().removeClass('noClick');
     isClicked = false;
+    sessionStorage.setItem("cardScore", updatingScore -= 5);
+    update();
+
+    if (updatingScore === 0) {
+      sconfitta();
+    }
   }
 };
-/* let counterCardsRemaining = () => {
-   if (cardCount === 2){
-      vittoria();
-   } else {
-      cardCount -= 2;
-      console.log(cardCount)
-   }
+
+var update = function update() {
+  (0, _jquery.default)(".update").text("Il tuo punteggio: ".concat(sessionStorage.getItem("cardScore")));
 };
 
-let vittoria = () => {
-   alert('Complimenti per la vittoria, qua arrivano i complimenti!')
-} */
+var counterCardsRemaining = function counterCardsRemaining() {
+  cardCount -= 2;
+  console.log(cardCount);
 
+  if (cardCount === 0) {
+    return vittoria();
+  }
+};
+
+var vittoria = function vittoria() {
+  if (cardScore === 0) {
+    return sconfitta();
+  } else {
+    localStorage.setItem("record", cardScore);
+    alert('Complimenti per la vittoria, qua arrivano i complimenti!');
+  }
+};
+
+var sconfitta = function sconfitta() {//return window.prompt("Hai perso, mi spiace... ritenta?");
+  //alert('Thank You.', function(){ window.location.reload()});
+};
 
 (0, _jquery.default)(document).ready(function () {
-  fetch("http://localhost:3000/main/").then(function (response) {
+  var scoreDiv = "<div class=\"row-flex justify-content-center align-items-center\">\n                     <div class=\"col d-flex align-items-start\"><div class=\"points d-flex justify-content-center align-items-center\">\n                        <div class =\"update\">Il tuo punteggio: ".concat(updatingScore, "</div></div></div>\n                     <div class=\"col d-flex align-items-end\"><div class=\"points d-flex justify-content-center align-items-center\">\n                        <div>Il tuo record: ").concat(localStorage.getItem("record"), "</div></div></div>\n                  </div>");
+  (0, _jquery.default)(".score").html(scoreDiv);
+  fetch("http://localhost:3000/data").then(function (response) {
     return response.json();
   }).then(function (data) {
     DatiJson = data;
@@ -18124,7 +18142,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56584" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53137" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

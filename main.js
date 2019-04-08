@@ -6,20 +6,20 @@ import images from './img/*.jpg';
 let isClicked=false;
 let cardVal, cardVal2, card1, card2, DatiJson, selection;
 let tempArr = [], tempArr2 = [], randArr = [];
-
-let cardCount;
+let cardCount, updatingScore = 10;
+sessionStorage.setItem("cardScore", 1000);
 
 let selectRandomCards = (par) => {
 
    for (let i = 0; i < ((par.cardsSchema.columns*par.cardsSchema.rows)/2); i++){
       tempArr[i] = par.cardS[i].src;
    }
-   console.log(tempArr);
+   //console.log(tempArr);
    tempArr2 = tempArr.slice();
-   console.log(tempArr2);
+   //console.log(tempArr2);
    randArr = tempArr.concat(tempArr2)
    randArr.sort(function(a,b){return 0.5 - Math.random()});
-   console.log(randArr)
+   //console.log(randArr)
    
 }
 
@@ -48,9 +48,6 @@ let showFirstCard = (x) => {
       x.parent().addClass('noClick')
       card1 = x;
       isClicked = true;
-/*       console.log(cardVal)
-      console.log(isClicked)
-      console.log(card1) */
    }   
 }
 
@@ -61,7 +58,6 @@ let showSecondCard = (x) => {
       x.closest(".back").fadeOut();
       x.parent().addClass('noClick')
       card2 = x;
-/*       console.log(cardVal2) */
    }
 }
 
@@ -77,32 +73,59 @@ let checkCards = () => {
    
    } else {
 
-      card1.show(1000);
-      card2.show(1000);
+      card1.show(2000);
+      card2.show(2000);
       cardVal = "", cardVal2 = "";
       card1.parent().removeClass('noClick');
       card2.parent().removeClass('noClick');
       isClicked=false;
+      sessionStorage.setItem("cardScore", updatingScore-=5);
+      update();
+      if (updatingScore === 0){
+         sconfitta();
+      }
 
    }
 }
 
-/* let counterCardsRemaining = () => {
-   if (cardCount === 2){
-      vittoria();
-   } else {
-      cardCount -= 2;
-      console.log(cardCount)
+let update = () => {
+   $(".update").text(`Il tuo punteggio: ${sessionStorage.getItem("cardScore")}`);
+}
+
+let counterCardsRemaining = () => {
+   cardCount -= 2;
+   console.log(cardCount)
+   if (cardCount === 0){
+      return vittoria();
    }
 };
 
 let vittoria = () => {
-   alert('Complimenti per la vittoria, qua arrivano i complimenti!')
-} */
+   if (cardScore === 0) {
+      return sconfitta();
+   } else {
+      localStorage.setItem("record", cardScore);
+      alert('Complimenti per la vittoria, qua arrivano i complimenti!');
+   }
+}
+
+let sconfitta = () => {
+   //return window.prompt("Hai perso, mi spiace... ritenta?");
+   //alert('Thank You.', function(){ window.location.reload()});
+}
 
 $(document).ready(() => {
 
-   fetch("http://localhost:3000/main/").then((response) => response.json())
+   let scoreDiv = `<div class="row-flex justify-content-center align-items-center">
+                     <div class="col d-flex align-items-start"><div class="points d-flex justify-content-center align-items-center">
+                        <div class ="update">Il tuo punteggio: ${updatingScore}</div></div></div>
+                     <div class="col d-flex align-items-end"><div class="points d-flex justify-content-center align-items-center">
+                        <div>Il tuo record: ${localStorage.getItem("record")}</div></div></div>
+                  </div>`
+      
+   $(".score").html(scoreDiv);   
+   
+   fetch("http://localhost:3000/data").then((response) => response.json())
       .then((data) => {
          DatiJson = data;
          if (DatiJson.cardsSchema.rows === 0 || DatiJson.cardsSchema.columns === 0){
@@ -125,6 +148,4 @@ $(document).ready(() => {
          })
       }
    );
-
-
 }) 
