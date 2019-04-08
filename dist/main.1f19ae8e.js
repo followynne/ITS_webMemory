@@ -17788,20 +17788,20 @@ module.exports = "/2D.db5bcda0.jpg";
 module.exports = "/2H.00737334.jpg";
 },{}],"img/2S.jpg":[function(require,module,exports) {
 module.exports = "/2S.33660c8e.jpg";
-},{}],"img/3C.jpg":[function(require,module,exports) {
-module.exports = "/3C.9552a4ab.jpg";
 },{}],"img/3D.jpg":[function(require,module,exports) {
 module.exports = "/3D.5cd146f8.jpg";
+},{}],"img/3C.jpg":[function(require,module,exports) {
+module.exports = "/3C.9552a4ab.jpg";
 },{}],"img/3H.jpg":[function(require,module,exports) {
 module.exports = "/3H.659f281a.jpg";
 },{}],"img/3S.jpg":[function(require,module,exports) {
 module.exports = "/3S.ca16c452.jpg";
 },{}],"img/4C.jpg":[function(require,module,exports) {
 module.exports = "/4C.ba99531d.jpg";
-},{}],"img/4D.jpg":[function(require,module,exports) {
-module.exports = "/4D.31cebc90.jpg";
 },{}],"img/4H.jpg":[function(require,module,exports) {
 module.exports = "/4H.5aafdc4a.jpg";
+},{}],"img/4D.jpg":[function(require,module,exports) {
+module.exports = "/4D.31cebc90.jpg";
 },{}],"img/4S.jpg":[function(require,module,exports) {
 module.exports = "/4S.7cb67ec0.jpg";
 },{}],"img/5C.jpg":[function(require,module,exports) {
@@ -17856,20 +17856,20 @@ module.exports = "/AH.d23c3de4.jpg";
 module.exports = "/AS.10beb484.jpg";
 },{}],"img/back_cards-07.jpg":[function(require,module,exports) {
 module.exports = "/back_cards-07.eb798639.jpg";
-},{}],"img/blue_back.jpg":[function(require,module,exports) {
-module.exports = "/blue_back.4aad8aaf.jpg";
 },{}],"img/Gray_back.jpg":[function(require,module,exports) {
 module.exports = "/Gray_back.48c8e151.jpg";
-},{}],"img/Green_back.jpg":[function(require,module,exports) {
-module.exports = "/Green_back.bfc70bf8.jpg";
+},{}],"img/blue_back.jpg":[function(require,module,exports) {
+module.exports = "/blue_back.4aad8aaf.jpg";
 },{}],"img/honor_clubs.jpg":[function(require,module,exports) {
 module.exports = "/honor_clubs.97eb118d.jpg";
+},{}],"img/Green_back.jpg":[function(require,module,exports) {
+module.exports = "/Green_back.bfc70bf8.jpg";
 },{}],"img/honor_diamond.jpg":[function(require,module,exports) {
 module.exports = "/honor_diamond.16ee03d8.jpg";
-},{}],"img/honor_heart-14.jpg":[function(require,module,exports) {
-module.exports = "/honor_heart-14.d63899d8.jpg";
 },{}],"img/honor_spade.jpg":[function(require,module,exports) {
 module.exports = "/honor_spade.72a90cea.jpg";
+},{}],"img/honor_heart-14.jpg":[function(require,module,exports) {
+module.exports = "/honor_heart-14.d63899d8.jpg";
 },{}],"img/JC.jpg":[function(require,module,exports) {
 module.exports = "/JC.b22bbfa0.jpg";
 },{}],"img/JD.jpg":[function(require,module,exports) {
@@ -17910,13 +17910,13 @@ module.exports = {
   "2D": require("./2D.jpg"),
   "2H": require("./2H.jpg"),
   "2S": require("./2S.jpg"),
-  "3C": require("./3C.jpg"),
   "3D": require("./3D.jpg"),
+  "3C": require("./3C.jpg"),
   "3H": require("./3H.jpg"),
   "3S": require("./3S.jpg"),
   "4C": require("./4C.jpg"),
-  "4D": require("./4D.jpg"),
   "4H": require("./4H.jpg"),
+  "4D": require("./4D.jpg"),
   "4S": require("./4S.jpg"),
   "5C": require("./5C.jpg"),
   "5D": require("./5D.jpg"),
@@ -17944,13 +17944,13 @@ module.exports = {
   "AH": require("./AH.jpg"),
   "AS": require("./AS.jpg"),
   "back_cards-07": require("./back_cards-07.jpg"),
-  "blue_back": require("./blue_back.jpg"),
   "Gray_back": require("./Gray_back.jpg"),
-  "Green_back": require("./Green_back.jpg"),
+  "blue_back": require("./blue_back.jpg"),
   "honor_clubs": require("./honor_clubs.jpg"),
+  "Green_back": require("./Green_back.jpg"),
   "honor_diamond": require("./honor_diamond.jpg"),
-  "honor_heart-14": require("./honor_heart-14.jpg"),
   "honor_spade": require("./honor_spade.jpg"),
+  "honor_heart-14": require("./honor_heart-14.jpg"),
   "JC": require("./JC.jpg"),
   "JD": require("./JD.jpg"),
   "JH": require("./JH.jpg"),
@@ -17967,7 +17967,7 @@ module.exports = {
   "Red_back": require("./Red_back.jpg"),
   "Yellow_back": require("./Yellow_back.jpg")
 };
-},{"./10C.jpg":"img/10C.jpg","./10D.jpg":"img/10D.jpg","./10H.jpg":"img/10H.jpg","./10S.jpg":"img/10S.jpg","./2C.jpg":"img/2C.jpg","./2D.jpg":"img/2D.jpg","./2H.jpg":"img/2H.jpg","./2S.jpg":"img/2S.jpg","./3C.jpg":"img/3C.jpg","./3D.jpg":"img/3D.jpg","./3H.jpg":"img/3H.jpg","./3S.jpg":"img/3S.jpg","./4C.jpg":"img/4C.jpg","./4D.jpg":"img/4D.jpg","./4H.jpg":"img/4H.jpg","./4S.jpg":"img/4S.jpg","./5C.jpg":"img/5C.jpg","./5D.jpg":"img/5D.jpg","./5H.jpg":"img/5H.jpg","./5S.jpg":"img/5S.jpg","./6C.jpg":"img/6C.jpg","./6D.jpg":"img/6D.jpg","./6H.jpg":"img/6H.jpg","./6S.jpg":"img/6S.jpg","./7C.jpg":"img/7C.jpg","./7D.jpg":"img/7D.jpg","./7H.jpg":"img/7H.jpg","./7S.jpg":"img/7S.jpg","./8C.jpg":"img/8C.jpg","./8D.jpg":"img/8D.jpg","./8H.jpg":"img/8H.jpg","./8S.jpg":"img/8S.jpg","./9C.jpg":"img/9C.jpg","./9D.jpg":"img/9D.jpg","./9H.jpg":"img/9H.jpg","./9S.jpg":"img/9S.jpg","./AC.jpg":"img/AC.jpg","./aces.jpg":"img/aces.jpg","./AD.jpg":"img/AD.jpg","./AH.jpg":"img/AH.jpg","./AS.jpg":"img/AS.jpg","./back_cards-07.jpg":"img/back_cards-07.jpg","./blue_back.jpg":"img/blue_back.jpg","./Gray_back.jpg":"img/Gray_back.jpg","./Green_back.jpg":"img/Green_back.jpg","./honor_clubs.jpg":"img/honor_clubs.jpg","./honor_diamond.jpg":"img/honor_diamond.jpg","./honor_heart-14.jpg":"img/honor_heart-14.jpg","./honor_spade.jpg":"img/honor_spade.jpg","./JC.jpg":"img/JC.jpg","./JD.jpg":"img/JD.jpg","./JH.jpg":"img/JH.jpg","./JS.jpg":"img/JS.jpg","./KC.jpg":"img/KC.jpg","./KD.jpg":"img/KD.jpg","./KH.jpg":"img/KH.jpg","./KS.jpg":"img/KS.jpg","./purple_back.jpg":"img/purple_back.jpg","./QC.jpg":"img/QC.jpg","./QD.jpg":"img/QD.jpg","./QH.jpg":"img/QH.jpg","./QS.jpg":"img/QS.jpg","./Red_back.jpg":"img/Red_back.jpg","./Yellow_back.jpg":"img/Yellow_back.jpg"}],"main.js":[function(require,module,exports) {
+},{"./10C.jpg":"img/10C.jpg","./10D.jpg":"img/10D.jpg","./10H.jpg":"img/10H.jpg","./10S.jpg":"img/10S.jpg","./2C.jpg":"img/2C.jpg","./2D.jpg":"img/2D.jpg","./2H.jpg":"img/2H.jpg","./2S.jpg":"img/2S.jpg","./3D.jpg":"img/3D.jpg","./3C.jpg":"img/3C.jpg","./3H.jpg":"img/3H.jpg","./3S.jpg":"img/3S.jpg","./4C.jpg":"img/4C.jpg","./4H.jpg":"img/4H.jpg","./4D.jpg":"img/4D.jpg","./4S.jpg":"img/4S.jpg","./5C.jpg":"img/5C.jpg","./5D.jpg":"img/5D.jpg","./5H.jpg":"img/5H.jpg","./5S.jpg":"img/5S.jpg","./6C.jpg":"img/6C.jpg","./6D.jpg":"img/6D.jpg","./6H.jpg":"img/6H.jpg","./6S.jpg":"img/6S.jpg","./7C.jpg":"img/7C.jpg","./7D.jpg":"img/7D.jpg","./7H.jpg":"img/7H.jpg","./7S.jpg":"img/7S.jpg","./8C.jpg":"img/8C.jpg","./8D.jpg":"img/8D.jpg","./8H.jpg":"img/8H.jpg","./8S.jpg":"img/8S.jpg","./9C.jpg":"img/9C.jpg","./9D.jpg":"img/9D.jpg","./9H.jpg":"img/9H.jpg","./9S.jpg":"img/9S.jpg","./AC.jpg":"img/AC.jpg","./aces.jpg":"img/aces.jpg","./AD.jpg":"img/AD.jpg","./AH.jpg":"img/AH.jpg","./AS.jpg":"img/AS.jpg","./back_cards-07.jpg":"img/back_cards-07.jpg","./Gray_back.jpg":"img/Gray_back.jpg","./blue_back.jpg":"img/blue_back.jpg","./honor_clubs.jpg":"img/honor_clubs.jpg","./Green_back.jpg":"img/Green_back.jpg","./honor_diamond.jpg":"img/honor_diamond.jpg","./honor_spade.jpg":"img/honor_spade.jpg","./honor_heart-14.jpg":"img/honor_heart-14.jpg","./JC.jpg":"img/JC.jpg","./JD.jpg":"img/JD.jpg","./JH.jpg":"img/JH.jpg","./JS.jpg":"img/JS.jpg","./KC.jpg":"img/KC.jpg","./KD.jpg":"img/KD.jpg","./KH.jpg":"img/KH.jpg","./KS.jpg":"img/KS.jpg","./purple_back.jpg":"img/purple_back.jpg","./QC.jpg":"img/QC.jpg","./QD.jpg":"img/QD.jpg","./QH.jpg":"img/QH.jpg","./QS.jpg":"img/QS.jpg","./Red_back.jpg":"img/Red_back.jpg","./Yellow_back.jpg":"img/Yellow_back.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -18124,7 +18124,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55285" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56584" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
