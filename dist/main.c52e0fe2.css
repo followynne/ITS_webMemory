@@ -1,27 +1,26 @@
-.score {
-    background-color: mistyrose;
+body {
+    margin: 0;
+    background-color: #FFE3C2 !important;
 }
 .points {
-    font-size: 1.5em;
-    border: 2px solid crimson;
-    background-color: khaki;
-    width: 400px;
-    height: 55px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #CDE9FD;
+    background-color: #4B98CE;
+    width: 100%;
 }
-.row{
-    border: 1px solid black;
+.colPoints{
+    height: 40px;
+    border: 2px solid #024F85;
 }
-
+input[type=text] {
+    width: 90px;
+}
 .colImg{
-    width: 100px;
-    height: 150px;
+    width: 125px;
+    height: 180px;
     position: relative;
 }
-
-.noClick{
-    pointer-events: none;
-}
-
 .front, .back {
     display: flex;
     flex-wrap: wrap;
@@ -30,10 +29,8 @@
     height: 100%;
     position: absolute;
 }
-
-#card {
-    border:1px solid green;
+.noClick{
+    pointer-events: none;
 }
-
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
