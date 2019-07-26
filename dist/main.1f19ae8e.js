@@ -17782,10 +17782,10 @@ module.exports = "/10H.efe9d89c.jpg";
 module.exports = "/10S.46084741.jpg";
 },{}],"img/2C.jpg":[function(require,module,exports) {
 module.exports = "/2C.2e58e41e.jpg";
-},{}],"img/2H.jpg":[function(require,module,exports) {
-module.exports = "/2H.00737334.jpg";
 },{}],"img/2D.jpg":[function(require,module,exports) {
 module.exports = "/2D.db5bcda0.jpg";
+},{}],"img/2H.jpg":[function(require,module,exports) {
+module.exports = "/2H.00737334.jpg";
 },{}],"img/2S.jpg":[function(require,module,exports) {
 module.exports = "/2S.33660c8e.jpg";
 },{}],"img/3C.jpg":[function(require,module,exports) {
@@ -17870,10 +17870,10 @@ module.exports = "/honor_diamond.16ee03d8.jpg";
 module.exports = "/honor_heart-14.d63899d8.jpg";
 },{}],"img/honor_spade.jpg":[function(require,module,exports) {
 module.exports = "/honor_spade.72a90cea.jpg";
-},{}],"img/JD.jpg":[function(require,module,exports) {
-module.exports = "/JD.878a8ae4.jpg";
 },{}],"img/JC.jpg":[function(require,module,exports) {
 module.exports = "/JC.b22bbfa0.jpg";
+},{}],"img/JD.jpg":[function(require,module,exports) {
+module.exports = "/JD.878a8ae4.jpg";
 },{}],"img/JH.jpg":[function(require,module,exports) {
 module.exports = "/JH.3a5b662d.jpg";
 },{}],"img/JS.jpg":[function(require,module,exports) {
@@ -17907,8 +17907,8 @@ module.exports = {
   "10H": require("./10H.jpg"),
   "10S": require("./10S.jpg"),
   "2C": require("./2C.jpg"),
-  "2H": require("./2H.jpg"),
   "2D": require("./2D.jpg"),
+  "2H": require("./2H.jpg"),
   "2S": require("./2S.jpg"),
   "3C": require("./3C.jpg"),
   "3D": require("./3D.jpg"),
@@ -17951,8 +17951,8 @@ module.exports = {
   "honor_diamond": require("./honor_diamond.jpg"),
   "honor_heart-14": require("./honor_heart-14.jpg"),
   "honor_spade": require("./honor_spade.jpg"),
-  "JD": require("./JD.jpg"),
   "JC": require("./JC.jpg"),
+  "JD": require("./JD.jpg"),
   "JH": require("./JH.jpg"),
   "JS": require("./JS.jpg"),
   "KC": require("./KC.jpg"),
@@ -17967,7 +17967,7 @@ module.exports = {
   "Red_back": require("./Red_back.jpg"),
   "Yellow_back": require("./Yellow_back.jpg")
 };
-},{"./10C.jpg":"img/10C.jpg","./10D.jpg":"img/10D.jpg","./10H.jpg":"img/10H.jpg","./10S.jpg":"img/10S.jpg","./2C.jpg":"img/2C.jpg","./2H.jpg":"img/2H.jpg","./2D.jpg":"img/2D.jpg","./2S.jpg":"img/2S.jpg","./3C.jpg":"img/3C.jpg","./3D.jpg":"img/3D.jpg","./3H.jpg":"img/3H.jpg","./3S.jpg":"img/3S.jpg","./4C.jpg":"img/4C.jpg","./4D.jpg":"img/4D.jpg","./4H.jpg":"img/4H.jpg","./4S.jpg":"img/4S.jpg","./5C.jpg":"img/5C.jpg","./5D.jpg":"img/5D.jpg","./5H.jpg":"img/5H.jpg","./5S.jpg":"img/5S.jpg","./6C.jpg":"img/6C.jpg","./6D.jpg":"img/6D.jpg","./6H.jpg":"img/6H.jpg","./6S.jpg":"img/6S.jpg","./7C.jpg":"img/7C.jpg","./7D.jpg":"img/7D.jpg","./7H.jpg":"img/7H.jpg","./7S.jpg":"img/7S.jpg","./8C.jpg":"img/8C.jpg","./8D.jpg":"img/8D.jpg","./8H.jpg":"img/8H.jpg","./8S.jpg":"img/8S.jpg","./9C.jpg":"img/9C.jpg","./9D.jpg":"img/9D.jpg","./9H.jpg":"img/9H.jpg","./9S.jpg":"img/9S.jpg","./AC.jpg":"img/AC.jpg","./aces.jpg":"img/aces.jpg","./AD.jpg":"img/AD.jpg","./AH.jpg":"img/AH.jpg","./AS.jpg":"img/AS.jpg","./back_cards-07.jpg":"img/back_cards-07.jpg","./blue_back.jpg":"img/blue_back.jpg","./Gray_back.jpg":"img/Gray_back.jpg","./Green_back.jpg":"img/Green_back.jpg","./honor_clubs.jpg":"img/honor_clubs.jpg","./honor_diamond.jpg":"img/honor_diamond.jpg","./honor_heart-14.jpg":"img/honor_heart-14.jpg","./honor_spade.jpg":"img/honor_spade.jpg","./JD.jpg":"img/JD.jpg","./JC.jpg":"img/JC.jpg","./JH.jpg":"img/JH.jpg","./JS.jpg":"img/JS.jpg","./KC.jpg":"img/KC.jpg","./KD.jpg":"img/KD.jpg","./KH.jpg":"img/KH.jpg","./KS.jpg":"img/KS.jpg","./purple_back.jpg":"img/purple_back.jpg","./QC.jpg":"img/QC.jpg","./QD.jpg":"img/QD.jpg","./QH.jpg":"img/QH.jpg","./QS.jpg":"img/QS.jpg","./Red_back.jpg":"img/Red_back.jpg","./Yellow_back.jpg":"img/Yellow_back.jpg"}],"main.js":[function(require,module,exports) {
+},{"./10C.jpg":"img/10C.jpg","./10D.jpg":"img/10D.jpg","./10H.jpg":"img/10H.jpg","./10S.jpg":"img/10S.jpg","./2C.jpg":"img/2C.jpg","./2D.jpg":"img/2D.jpg","./2H.jpg":"img/2H.jpg","./2S.jpg":"img/2S.jpg","./3C.jpg":"img/3C.jpg","./3D.jpg":"img/3D.jpg","./3H.jpg":"img/3H.jpg","./3S.jpg":"img/3S.jpg","./4C.jpg":"img/4C.jpg","./4D.jpg":"img/4D.jpg","./4H.jpg":"img/4H.jpg","./4S.jpg":"img/4S.jpg","./5C.jpg":"img/5C.jpg","./5D.jpg":"img/5D.jpg","./5H.jpg":"img/5H.jpg","./5S.jpg":"img/5S.jpg","./6C.jpg":"img/6C.jpg","./6D.jpg":"img/6D.jpg","./6H.jpg":"img/6H.jpg","./6S.jpg":"img/6S.jpg","./7C.jpg":"img/7C.jpg","./7D.jpg":"img/7D.jpg","./7H.jpg":"img/7H.jpg","./7S.jpg":"img/7S.jpg","./8C.jpg":"img/8C.jpg","./8D.jpg":"img/8D.jpg","./8H.jpg":"img/8H.jpg","./8S.jpg":"img/8S.jpg","./9C.jpg":"img/9C.jpg","./9D.jpg":"img/9D.jpg","./9H.jpg":"img/9H.jpg","./9S.jpg":"img/9S.jpg","./AC.jpg":"img/AC.jpg","./aces.jpg":"img/aces.jpg","./AD.jpg":"img/AD.jpg","./AH.jpg":"img/AH.jpg","./AS.jpg":"img/AS.jpg","./back_cards-07.jpg":"img/back_cards-07.jpg","./blue_back.jpg":"img/blue_back.jpg","./Gray_back.jpg":"img/Gray_back.jpg","./Green_back.jpg":"img/Green_back.jpg","./honor_clubs.jpg":"img/honor_clubs.jpg","./honor_diamond.jpg":"img/honor_diamond.jpg","./honor_heart-14.jpg":"img/honor_heart-14.jpg","./honor_spade.jpg":"img/honor_spade.jpg","./JC.jpg":"img/JC.jpg","./JD.jpg":"img/JD.jpg","./JH.jpg":"img/JH.jpg","./JS.jpg":"img/JS.jpg","./KC.jpg":"img/KC.jpg","./KD.jpg":"img/KD.jpg","./KH.jpg":"img/KH.jpg","./KS.jpg":"img/KS.jpg","./purple_back.jpg":"img/purple_back.jpg","./QC.jpg":"img/QC.jpg","./QD.jpg":"img/QD.jpg","./QH.jpg":"img/QH.jpg","./QS.jpg":"img/QS.jpg","./Red_back.jpg":"img/Red_back.jpg","./Yellow_back.jpg":"img/Yellow_back.jpg"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var _jquery = _interopRequireDefault(require("jquery"));
@@ -18175,7 +18175,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52834" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53977" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
