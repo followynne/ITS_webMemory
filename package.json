@@ -1,4 +1,5 @@
 {
+  "main": "client.js",
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "rm -rf dist && parcel build index.html",
